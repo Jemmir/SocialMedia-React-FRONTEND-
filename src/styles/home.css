@@ -1,0 +1,115 @@
+.undertopbarcontainer{
+    display:flex;
+    width:100%
+}
+.sidebar{
+    position:fixed;
+    left:0;
+    width:30%;
+    background-color: rgb(19, 19, 19);
+    color:white
+}
+
+.feed{
+    width:100%;
+    min-height:90vh;
+   
+    background-color: rgb(19, 19, 19);
+    color:white;
+    
+    display:flex;
+}
+.feed1{
+    height:100%;
+    width:30%
+}
+.feed2{
+    height:100%;
+    width:30%
+}
+
+@media only screen and (max-width: 600px) {
+    .sidebar {
+      width:10%
+    };
+    
+  }
+
+@media only screen and (max-width: 600px) {
+    
+    .feed1{
+        width:10%
+    }
+  }
+
+.insidefeed{
+    background-color: rgb(19, 19, 19);
+    width:calc(40% - 2px);
+    border-right: 1px solid rgb(54, 51, 51);
+    border-left:1px solid rgb(54, 51, 51)
+    
+}
+@media only screen and (max-width: 600px) {
+    .insidefeed {
+      width: calc(90% - 1px);
+    }
+  }
+.postsfeed{
+    width:100%;
+}
+
+.rightbar{
+    position:fixed;
+    display:flex;
+    flex-direction: column;
+    width:30%;
+    right:0;
+    background-color: rgb(19, 19, 19);
+    color:white;
+    height:88vh;
+    overflow-y: auto;
+    overflow-x: hidden
+    
+}
+@media only screen and (max-width: 600px) {
+    .feed2{
+        width:0%
+    };
+    
+
+  }
+
+
+   
+    .rightbarmobile {
+      position:fixed;
+      display:flex;
+      flex-direction: column;
+      width:0%;
+      right:0;
+      background-color: rgb(19, 19, 19);
+      color:white;
+      height:88vh;
+      overflow-y: auto;
+      overflow-x: hidden;
+      transition: all 1s ease
+    
+    }
+    
+  
+
+a{
+    color:white;
+    text-decoration: none;
+    
+}
+
+
+
+  .mobile{
+  width:50%;
+  
+  transition: all 1s ease
+}
+  
+

@@ -1,0 +1,143 @@
+.profileInfoContainer{
+    display:flex;
+    flex-direction: column;
+    position:relative;
+    width:100%;
+    height:70vh;
+    border-bottom: 1px solid rgb(54, 51, 51);
+    
+}
+.profileCoverImgPlusEdit{
+    display:flex;
+    flex-direction: column;
+    height: 60%;
+   
+}
+.profileCoverImg{
+    height:70%;
+}
+.profileImgProfilePlusEditingOption{
+display:flex;
+justify-content: space-between;
+height: 30%;
+align-items: CENTER;
+}
+.profileImgProfile{
+    width: 9rem;
+    height:9rem;
+    object-fit: cover;
+    border-radius: 100%;
+    margin-top: -90px;
+    margin-left: 20px;
+}
+
+.editProfileButton{
+    padding:8px;
+    border:1px solid gray;
+    font-size:15px;
+    margin-right:10px;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    cursor:pointer;
+    transition: all 0.4s ease;
+}
+.editProfileButton:hover{
+    background-color: rgb(22, 22, 22, 0.9);
+    transition: all 0.4s ease;
+}
+.confirmChanges{
+    padding:0.5rem 1rem 0.5rem 1rem ;
+    background-color:green ;
+    transition: all 0.4s ease;
+}
+.confirmChanges:hover{
+    background-color: rgb(16, 177, 16);
+    transition: all 0.4s ease;
+}
+
+/* */
+
+.profileNamePlusDescriptionPlusOptions{
+    height:40%;
+    display: flex;
+    flex-direction: column;
+    gap:10px
+}
+.profileName{
+    margin-left: 20px;
+    font-size: 22px;
+    font-weight: 900;
+}
+.profileDescription{
+    font-size:15px;
+    color:rgb(252, 242, 242,.9);
+    font-weight: 600;
+    margin-left: 20px;
+}
+.living{
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+    font-size: 15px;
+    color:rgb(220, 20, 60,0.4);
+    text-decoration: underline;
+    
+}
+.followingfollowers{
+    display: flex;
+    flex-direction: row;
+    gap:10px;
+    margin-left: 20px;;
+    font-size: 15px;
+    color: rgb(220, 20, 60,.8);
+}
+.profileOptions{
+    margin-top: 20px;
+    display: flex;
+    gap:10px;
+    justify-content: center;
+    
+    position: absolute;
+    bottom:0;
+    
+    width:100%;
+    font-size:20px;
+    border-bottom: 1px solid white;
+    
+    
+}
+
+
+.myPosts{
+  
+ 
+
+    padding:5px 5px 5px 5px;
+    
+    
+  
+    transition: all 0.7s ease;
+    color:gray;
+    cursor:pointer
+  
+    
+}
+
+.likedPosts{
+    
+    padding:5px 5px 5px 5px;
+    
+    transition: all 0.7s ease;
+    color:gray;
+    cursor:pointer
+  
+}
+.myPosts:hover{
+    background-color:rgb(54, 51, 51) ;
+    transition: all 0.7s ease;
+}
+.likedPosts:hover{
+    background-color:rgb(54, 51, 51) ;
+    transition: all 0.7s ease;
+}

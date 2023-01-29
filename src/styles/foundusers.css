@@ -1,0 +1,19 @@
+.profileImagePlusNameFoundUser{
+    display:flex;
+    z-index:10px;
+    gap:10px;
+    width:100%;
+    padding:0.5rem;
+    
+    align-items:center;
+    transition: all 0.2s ease;
+    cursor:pointer;
+    margin-left:0.5rem;
+    font-size:1.1rem
+}
+.profileImagePlusNameFoundUser:hover{
+    background-color: rgba(44, 44, 44, 0.8);
+    transition: all 0.2s ease;
+    margin-left:1rem
+   
+}

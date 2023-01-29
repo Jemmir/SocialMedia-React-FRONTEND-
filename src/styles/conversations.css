@@ -1,0 +1,22 @@
+.conversationContainer{
+    display:flex;
+    gap:1rem;
+    color:white;
+    align-items: center;
+    cursor: pointer;
+    padding:1rem;
+    transition: all 0.5s ease;
+    
+    
+    
+}
+.conversationContainer:hover{
+    transition: all 0.5s ease;
+    background-color: rgba(53, 52, 52, 0.2);
+    
+}
+.namepluslastmessage{
+    display:flex;
+    flex-direction: column;
+    
+}

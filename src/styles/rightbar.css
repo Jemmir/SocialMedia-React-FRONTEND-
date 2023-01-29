@@ -1,0 +1,52 @@
+.rightbarContainer{
+    width: 95%;
+    align-self: center;
+    background-color: rgb(32, 32, 32);
+    border-radius: 20px;
+   ;
+}
+.rightbarContainer:hover{
+    background-color: rgb(43, 42, 42)
+}
+
+.rightbarTopText{
+    
+    margin-left: 5px;
+   
+    padding:5px;
+    font-size: 20px;
+    margin-bottom: 2rem;
+    margin-top: 0.5rem;
+   
+    
+}
+
+.rightbarNewPost{
+ 
+    border:1px solid rgb(209, 206, 206);
+    margin-top:2.5rem;
+    width:95%; 
+    align-self:center; 
+    display:flex; 
+    flex-direction:column;
+    transition: all 1s ease
+    
+}
+
+.dark{
+    transition: all 0s ease;
+    color:transparent;
+     border:transparent;
+     transform: translateY(-20%);
+     pointer-events: none;
+     opacity: 0;
+}
+
+.darko {
+    display:"none"
+}
+.rightbarTimeAgo{
+    margin-left: 15px; font-size:12px; color: lightgray;
+    transition: all 1s ease;
+    opacity:1;
+}

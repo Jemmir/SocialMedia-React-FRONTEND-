@@ -1,0 +1,9 @@
+.mediaModularContainer{
+    display:flex; justify-content:center; 
+    align-items:center;
+    width:100vw;
+    height:100vh; position:fixed;
+    background-color:rgb(10, 10, 10, 0.6);
+     z-index: 100;
+    
+}
